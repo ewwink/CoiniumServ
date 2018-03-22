@@ -1,4 +1,4 @@
 image: Visual Studio 2017
 
 build_script:
-  - dotnet build hypepool.sln
+  - dotnet build CoiniumServ.sln
