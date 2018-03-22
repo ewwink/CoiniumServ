@@ -2,6 +2,7 @@ image: Visual Studio 2017
 
 before_build:
   - nuget restore -DisableParallelProcessing
+  - cd src\Tests && nuget restore -DisableParallelProcessing
   
 build_script:
   - msbuild CoiniumServ.sln
