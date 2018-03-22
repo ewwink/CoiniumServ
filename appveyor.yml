@@ -12,5 +12,5 @@ cache:
 
 artifacts:
   - path: build\bin\Debug
-  - name: CoiniumServ-0.2.6.3
+    name: CoiniumServ-0.2.6.3
 
