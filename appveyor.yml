@@ -10,3 +10,7 @@ cache:
   - packages -> **\packages.config      # preserve "packages" directory in the root of build folder but will reset it if packages.config is modified
   - '%USERPROFILE%\.nuget\packages -> **\project.json'  # project.json cache
 
+artifacts:
+  - path: build\bin\Debug
+  - name: CoiniumServ-0.2.6.3
+
