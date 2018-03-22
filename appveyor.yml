@@ -1,4 +1,4 @@
 image: Visual Studio 2017
 
 build_script:
-  - dotnet build CoiniumServ.sln
+  - devenv /build Release CoiniumServ.sln
